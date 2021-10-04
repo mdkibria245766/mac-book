@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="header-section mt-5">
+
+            <div>
+                <img class="half-width" src="images/mac.png" alt="">
+
+            </div>
+            <div>
+                <h1>Costomize Your Blue mac 24-inch iMac with Apple M1 chip.</h1>
+                <p>Apple M1 chip with 8-Core CPU with 4 Performance cores and 4 efficiency cores, 7-core GPU, and
+                    16-core Neural Engine 8GB Unified Memory 256GB SSD storage Two Thunderbolt / USB 4 Ports Magic Mouse
+                    Magic Keyboard-US English</p>
+                <h6>Memory</h6>
+                <div>
+
+                    <button id="base-cost" class=" btn-hover p-2">8GB Memory</button>
+                    <button id="include-extra-cost" class=" btn-hover p-2"> 16GB Memory</button>
+                </div>
+                <br>
+                <h6>Storage</h6>
+                <div>
+
+                    <button id="base-storage-cost" class=" btn-hover p-2">256GB SSD
+                        storage</button>
+                    <button id="storage-cost" class=" btn-hover p-2"> 512GB SSD
+                        storage</button>
+                    <button id="another-storage-cost" class=" btn-hover p-2">1TB SSD
+                        storage</button>
+
+                </div>
+                <br>
+                <h6>chose your delivery option</h6>
+
+                <div>
+                    <button id="base-delivery-charge" class=" btn-hover p-2"> Friday, aug
+                        25 FREE Prime
+                        Delivery</button>
+                    <button id="extra-delivery-charge" class=" btn-hover p-2">Friday, aug
+                        21 Delivery charge
+                        $20</button>
+
+                </div>
+                <br>
+                <!-- table apply  -->
+                <table class="table caption-top w-50">
+                    <caption></caption>
+
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td> <strong>Base Price</strong> </td>
+                            <td> <b>$ <span id="base-price">1299</span> </b> </td>
+
+                        </tr>
+                        <tr>
+                            <td> <strong>Exttra Memory Cost</strong> </td>
+                            <td><b>$ <span id="add-memory-cost">0</span></b>
+
+
+                            </td>
+
+
+                        </tr>
+                        <tr>
+                            <td> <b>Extra Storage Cost</b> </td>
+                            <td> <b> $ <span id="extra-storage-cost">0</span> </b></td>
+
+                        </tr>
+                        <tr>
+                            <td> <b>Delivery charge</b> </td>
+                            <td> <b>$ <span id="shipping-cost">0</span></b> </td>
+                        </tr>
+
+
+                        <tr>
+                            <td> <b>Total Price</b> </td>
+                            <td> <b>$ <span id="total-price">1299</span> </b> </td>
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+                <!-- pomo code apply  -->
+
+                <h6>Add Pomo Code</h6>
+                <div class="input-group mb-3 w-50 ">
+
+                    <input id="steave-kakku" type="text" class="form-control rounded-2">
+                    <button id="btn-button" class="btn bg-danger rounded-2" type="button">Apply</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

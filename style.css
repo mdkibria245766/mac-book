@@ -1,0 +1,44 @@
+.header-section{
+    display: flex;
+  
+}
+.half-width{
+    width: 50%;
+    margin-left: 20%;
+    padding-top: 5%;
+}
+.form{
+    padding: 5px;
+   width: 35%;
+   
+  
+}
+.btn-hover:hover{
+   background-color: rgb(26, 22, 22);
+    color: azure;
+}
+h6{
+    margin-right: 50px;
+    display: inline-block;
+}
+
+ 
+
+.cost{
+    list-style: none;
+   width: 50%;
+ 
+}
+.cost li{
+    border-bottom: 2px solid #ddd;
+    padding: 3%;
+}
+#bold-border{
+    border-bottom: 2px solid rgb(19, 14, 14);
+}
+.click{
+    display: none;
+}
+.border-top{
+    border-top: 2px solid black;
+}
